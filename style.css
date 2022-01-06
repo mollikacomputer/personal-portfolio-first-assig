@@ -36,6 +36,7 @@ h5 {
   color: white;
   background-color: orangered;
   padding: 8px 30px;
+  margin-top: 15px;
   border-radius: 8px;
   font-weight: 700;
 }
@@ -103,4 +104,5 @@ footer {
   color: white;
   text-align: center;
   padding: 20px 0px;
+  font-family: "Lobster", cursive;
 }
