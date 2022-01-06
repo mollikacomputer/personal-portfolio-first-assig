@@ -13,8 +13,11 @@ body {
 }
 .container {
   background-color: #fff;
-  padding: 0% 5%;
   box-shadow: 10px 10px 10px 20px whitesmoke;
+}
+section,
+header {
+  padding: 2%;
 }
 h1 {
   font-size: 40px;
@@ -49,22 +52,23 @@ h5 {
 .half-width {
   width: 50%;
   text-align: justify;
-  padding: 1%;
-  margin: auto;
 }
 .half-width img {
   width: 80%;
 }
-/* my mission style */
-.my-mission {
-  padding: 1%;
-}
+
 .one-third-width {
   width: 33%;
   padding: 2%;
   border-radius: 20px;
   text-align: justify;
   margin-right: 2%;
+}
+.margin-right {
+  margin-right: 2%;
+}
+.margin-left {
+  margin-left: 2%;
 }
 .mission-bg {
   background-color: #fffafa;
@@ -84,7 +88,6 @@ h5 {
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: 20%;
-  padding-left: 5%;
 }
 
 /*community section style*/
@@ -93,6 +96,9 @@ h5 {
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: 20%;
+}
+.community-bg p {
+  margin-right: 3%;
 }
 /*contact section */
 .contact {
